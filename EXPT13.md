@@ -16,8 +16,8 @@ End;
 ```
 
 # 2. Create a table emp_grade with columns empno &amp; grade. Write PL/SQL block to insert values into the table emp_grade by processing emp table with the following constraints.
-If sal &lt;= 1400 then grade is ’C’
-Else if sal between 1401 and 2000 then the grade is ‘B’ Else the grade is ‘A’.
+If sal &lt;= 1400 then grade is ’C’\
+Else if sal between 1401 and 2000 then the grade is ‘B’ Else the grade is ‘A’.\
 
 ```create table emp_grade(empno number, grade char(1));
 Declare 
